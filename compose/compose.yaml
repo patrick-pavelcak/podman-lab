@@ -1,0 +1,10 @@
+version: '3.7'
+
+services:
+  greeting-app:
+    container_name: #define the container name
+    image: #define the image to be run
+    ports:
+      - # define the port mapping, in the following format "HOST:CONTAINER"
+    environment:
+      - # set the GREETING_MESSAGE environment variable
